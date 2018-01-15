@@ -20,5 +20,5 @@ function deepestChild() {
   while (grandNode.querySelector('div') !== null) {
     grandNode = grandNode.querySelector('div');
   }
-  return grandNode.innerHTML;
+  return grandNode;
 }
